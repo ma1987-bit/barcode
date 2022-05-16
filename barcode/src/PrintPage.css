@@ -1,0 +1,20 @@
+.const_pageStyle{
+
+@page {
+    size: 80mm 50mm;
+  }
+  text-align: center;
+  padding: 40px;
+}
+@media print {
+    .const_pageStyle {
+      page-break-before: always;
+      margin-top: 1rem;
+    display: block;
+    page-break-before: auto;
+    size: 76mm 24mm;
+    
+    
+    }
+}
+
